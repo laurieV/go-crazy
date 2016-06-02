@@ -1,0 +1,137 @@
+body{ margin-top: 5%;
+      margin-left: 10%;
+      margin-right: 10%;
+    font-family: helvetica;
+    line-height: 1.4em;
+    background-color: mintcream;
+    color: darkslategrey;
+    }
+
+h1{font-size: 3.4em;
+  float: left;
+  font-family: 'Just Another Hand', cursive;
+  color:darkkhaki;
+    }
+
+h3{font-size: 2em;
+  text-align: center;
+  clear: both;
+  border-top: 2px solid teal;
+  padding-top: 170px;
+  font-family: 'Fjalla One', sans-serif;
+    }
+
+a{text-decoration: none;
+  color:darkkhaki;
+  }
+
+nav {text-align: right;
+    float: right;
+    width: 580px;
+    margin-bottom: 30px;}
+
+.links {margin-right:8%;}
+
+h2{margin-top: 200px;
+  margin-bottom: 10px;
+  clear:both;
+  font-size: 1.5em;
+  font-family: 'Fjalla One', sans-serif;
+  color:darkkhaki;}
+
+h4{font-style: 1em;
+    margin-bottom: 10px;
+    font-size: 0.8em;}
+
+img{float:left;
+    margin-bottom: 200px;
+    display: block;
+    width: 600px;
+    height:400px;}
+
+.foto{margin-bottom: 30px;}
+
+p{float:right;
+  width: 45%;
+}
+.lees {font-size: 0.8em; }
+.tags{margin-top: 32%;
+      font-size: 0.8em;}
+
+.archieflinks{clear: both;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 100%;
+  }
+
+.ouder {margin-left: 82%;}
+
+.footer{float:none;
+        clear: both;
+        text-align: center;
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 30px;
+        border-top: 2px solid teal;
+        padding-top: 3%;}
+
+.onderaan{ font-size: 0.8em;
+        margin-top: 370px;
+        width: 100%;
+        }
+
+@media (max-width: 1400px) {
+            p{float: none;
+              margin-left: auto;
+              margin-right: auto;}
+
+            img{margin-bottom: 30px;
+                float: none;
+                margin-left: auto;
+                margin-right: auto;}
+
+            .tags{margin-top: 5%;}
+            h2{text-align: center;}
+
+            h4{text-align: center;}
+            .archieflinks{width: 100%;}
+            .ouder {margin-left: 80%;}
+            .onderaan{ margin-top: 30px;}
+        }
+
+@media (max-width: 1280px){
+
+  .ouder {margin-left: 75%;}
+    p{width: 55%;}
+    nav{float: none;
+      text-align: left;}
+    h1{float: none;
+      margin-bottom: 40px;}
+
+}
+
+@media (max-width: 1100px){
+        p{width: 65%;}
+        .ouder {margin-left: 73%;}
+}
+
+@media (max-width: 960px){
+  .ouder {margin-left:70%;  }
+  p{width: 85%;}
+}
+
+@media (max-width:850px){
+  .ouder {margin-left:65%;}
+  h1{font-size: 2em;}
+  .links{margin-right: 4%;}
+}
+
+@media (max-width:730px){
+.archieflinks{text-align: center;}
+.ouder {margin-left: 20px;}
+p{ width: 85%;}
+img{ width: 85%;}
+body{ margin-left: 5%;
+      margin-right: 5%;}
+}
+}
